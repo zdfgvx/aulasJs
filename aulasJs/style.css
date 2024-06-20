@@ -6,8 +6,11 @@ body{
 form{
     width: 70%;
     height: 70%;
-    margin-top: 10%;
+    margin-top: 12%;
 
+}
+h3{
+    text-align: center;
 }
 .label{
     margin: 5px ;
@@ -15,10 +18,10 @@ form{
 }
 .caixa{
     width: 400px;
-    height: 600px;
+    height: 750px;
     background-color: rgb(255, 230, 195);
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex; 
     justify-content: center;
 }
@@ -26,7 +29,7 @@ form{
     display: inline-block;
 }
 .caixa_Input{
-    height: 15%;
+    height: 10%;
 }
 .input{
    height: 24px;
