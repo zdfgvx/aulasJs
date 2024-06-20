@@ -4,23 +4,55 @@ body{
     justify-content: center;
 }
 form{
-    border-radius: 10px;
+    width: 70%;
+    height: 70%;
     margin-top: 10%;
-    background-color: white;
-    width: 400px;
-    height: 500px;
-}
-.form{
-    margin:40px 0 20px 100px
-}
 
+}
 .label{
     margin: 5px ;
     display: block;
 }
-input{
-    background-color: antiquewhite;
+.caixa{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 230, 195);
+    padding: 30px;
+    border-radius: 20px;
+    display: flex; 
+    justify-content: center;
+}
+.input_checkbox{
+    display: inline-block;
+}
+.caixa_Input{
+    height: 15%;
+}
+.input{
+   height: 24px;
+   width: 98%;
+   border-radius: 5px;
+   box-shadow: rgb(83, 83, 83) 3px 3px;
+   border: none;
+}
+.caixa_enviar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.enviar{
+    background-color: rgb(104, 104, 218);
     border: none;
-    border-radius: 5px;
-    height: 25px;
+    height: 30px;
+    width: 30%;
+    margin-left: 5px;
+    border-radius: 3px;
+    color: aliceblue;
+}
+.input:active{
+    border: none;
+    outline: none;
+}
+textarea{
+    width: 100%;
 }

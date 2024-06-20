@@ -7,44 +7,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   
     
-        <form>
-            <div class="form">
-                <label class="label">nome:</label>
+        <div class="caixa">
+            <form action="">
+            <div class="caixa_Input">
+                <label class="label">Nome</label>
                 <input name ="nom" class="input"type="text">
-                
-                <label class="label" >Email:</label>
+            </div>
+            <div class="caixa_Input">
+                <label class="label" >Email</label>
                 <input name ="email" class="input"type="email">
-                
-                <label class="label" >senha</label>
+            </div>
+            <div class="caixa_Input">
+                <label class="label" >Senha</label>
                 <input name ="senha" class="input"type="password">
-                
-                <label class="label" >idade</label>
+            </div>
+            <div class="caixa_Input">
+                <label class="label" >Idade</label>
                 <input name ="idade" class="input"type="number">
-                
-                <label class="label" >data de nascimento</label>
+            </div>
+            <div class="caixa_Input">
+                <label class="label" >Data de nascimento</label>
                 <input name ="data" class="input"type="date">
-                
+            </div>
+            <div class="caixa_Input">
                 <label class="label" for="">Esportes preferidos</label>
-                <input type="checkbox" name="preferencias"><label for="">futebol</label>
-                <input type="checkbox" name="preferencias"><label for="">volei</label>
-                <input type="checkbox" name="preferencias"><label for="">ping pong</label>
-                <br>
-                <br>
-                <label for="">Estado onde nascel</label>
+                <input type="checkbox" name="preferencias" class="input_checkbox"><label for="">futebol</label>
+                <input type="checkbox" name="preferencias" class="input_checkbox"><label for="">volei</label>
+                <input type="checkbox" name="preferencias" class="input_checkbox"><label for="">ping pong</label>
+            </div>
+            <div class="caixa_Input">
+                <label for="">Estado onde nasceu</label>
                 <select>
                     <option value="">PR</option>
                     <option value="">RS</option>
                     <option value="">SC</option>
                 </select>
-                <br>
-                <br>
-                <input class="input"type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
-
             </div>
-        </form>
+            <div class="caixa_Input">
+                <label class="label" >Mansagem</label>
+                <textarea name="" id="" ></textarea>
+            </div>
+            <div class="caixa_enviar">
+                <input class="enviar"type="submit" value="Enviar">
+                <input class="enviar" type="reset" value="Limpar">
+            </div>
+            </form>
+        </div>
     
- 
 </body>
 </html>
